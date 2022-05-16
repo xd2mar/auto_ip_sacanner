@@ -1,0 +1,8 @@
+requests
+netifaces
+progress
+socket
+ping3
+colorama
+getmac
+
