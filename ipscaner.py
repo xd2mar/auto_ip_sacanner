@@ -63,7 +63,7 @@ def gethostname(address, q, hostnames, nb):
                     host_name = None
             host_port = None
             #ports = range (0,65535)
-            ports = (80,443,22,21,25,53,139)
+            ports = (80,443,22,21,25,53,139,3389)
             allports = ""
             for port in ports:
                 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
